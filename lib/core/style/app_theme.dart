@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_task/core/style/app_color.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppStyle {
   static get LightTheme => ThemeData(
@@ -76,7 +76,6 @@ class AppStyle {
         titleMedium:
             TextStyle(color: Colors.black), // default TextField input style
       ),
-      cardColor: AppColors.cardbg,
       cardTheme: const CardTheme(margin: EdgeInsets.zero),
       bottomAppBarColor: Colors.white
       // buttonTheme: ButtonThemeData(buttonColor: Color(0xff2D6BCB)),
